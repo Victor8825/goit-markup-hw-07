@@ -5,6 +5,9 @@
 .address {
   margin-top: 20px;
 }
+.address__list {
+  @extend %list;
+}
 
 .address__mail--link,
 .address__tel--link {

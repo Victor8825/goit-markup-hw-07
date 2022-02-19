@@ -1,4 +1,5 @@
 .projects {
+  @extend %list;
   display: flex;
   flex-wrap: wrap;
 }
@@ -26,9 +27,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   padding: 63px 24px;
-  font-size: 18px;
-  line-height: calc(28 / 18);
-  letter-spacing: 0.03em;
+  @include font(null, 18px, 1.55, 0.03em);
   height: 100%;
 
   color: var(--additional-font-color);
@@ -59,17 +58,12 @@
 
 .project-card__title {
   margin-bottom: 4px;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: calc(36 / 18);
-  letter-spacing: 0.06em;
+  @include font(700, 18px, 2, 0.06em);
 
   color: var(--title-text-color);
 }
 .project-card__text {
-  font-size: 16px;
-  line-height: calc(30 / 16);
-  letter-spacing: 0.03em;
+  @include font(null, 16px, 1.87, 0.03em);
 
   color: var(--text-color);
 }

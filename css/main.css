@@ -328,7 +328,7 @@ body {
   margin: -1px;
 }
 
-.list {
+.nav-list, .header-contacts, .features__list, .about__list, .team__list, .team-socials, .customers__list, .filter, .projects, .address__list, .footer-socials__list {
   list-style: none;
 }
 
@@ -456,9 +456,9 @@ body {
   width: 696px;
   font-weight: 900;
   font-size: 44px;
-  line-height: calc(60 / 44);
-  text-align: center;
+  line-height: 1.36;
   letter-spacing: 0.06em;
+  text-align: center;
   text-transform: uppercase;
   color: var(--hero-tytle-color);
 }
@@ -472,7 +472,7 @@ body {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: calc(30 / 16);
+  line-height: 1.87;
   letter-spacing: 0.06em;
   background-color: var(--hero-btn-background-color);
   color: var(--hero-btn-texr-color);
@@ -506,7 +506,7 @@ body {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
-  line-height: calc(16 / 14);
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
@@ -514,7 +514,7 @@ body {
 
 .features__text {
   font-size: 14px;
-  line-height: calc(24 / 14);
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
@@ -549,7 +549,7 @@ body {
 .about__text {
   font-weight: 700;
   font-size: 14px;
-  line-height: calc(16 / 14);
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
@@ -559,9 +559,9 @@ body {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
-  line-height: calc(42 / 36);
-  text-align: center;
+  line-height: 1.17;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--title-text-color);
 }
 
@@ -573,9 +573,9 @@ body {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
-  line-height: calc(42 / 36);
-  text-align: center;
+  line-height: 1.17;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--title-text-color);
 }
 
@@ -596,7 +596,7 @@ body {
 .team__names {
   font-weight: 500;
   font-size: 16px;
-  line-height: calc(19 / 16);
+  line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--title-text-color);
@@ -606,7 +606,7 @@ body {
   margin-top: 10px;
   margin-bottom: 16px;
   font-size: 16px;
-  line-height: calc(19 / 16);
+  line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--text-color);
@@ -657,9 +657,9 @@ body {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
-  line-height: calc(42 / 36);
-  text-align: center;
+  line-height: 1.17;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--title-text-color);
 }
 
@@ -716,7 +716,7 @@ body {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: calc(26 / 16);
+  line-height: 1.62;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   background-color: var(--button-background-color);
@@ -759,7 +759,7 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   padding: 63px 24px;
   font-size: 18px;
-  line-height: calc(28 / 18);
+  line-height: 1.55;
   letter-spacing: 0.03em;
   height: 100%;
   color: var(--additional-font-color);
@@ -791,14 +791,14 @@ body {
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
-  line-height: calc(36 / 18);
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
 }
 
 .project-card__text {
   font-size: 16px;
-  line-height: calc(30 / 16);
+  line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
@@ -814,7 +814,7 @@ body {
   padding-bottom: 60px;
   font-style: normal;
   font-size: 14px;
-  line-height: calc(24 / 14);
+  line-height: 1.7;
   letter-spacing: 0.03em;
   background-color: var(--footer-background-color);
 }
@@ -855,7 +855,8 @@ body {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
-  line-height: calc(16 / 14);
+  line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -926,7 +927,7 @@ body {
 
 .footer-input::placeholder {
   font-size: 16px;
-  line-height: calc(20 / 16);
+  line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -945,7 +946,7 @@ body {
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
-  line-height: calc(30 / 16);
+  line-height: 1.87;
   letter-spacing: 0.06em;
   color: var(--hero-btn-texr-color);
 }
@@ -1020,9 +1021,9 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
-  line-height: calc(23 / 20);
-  text-align: center;
+  line-height: 1.15;
   letter-spacing: 0.03em;
+  text-align: center;
   margin-bottom: 12px;
   color: var(--title-text-color);
 }
@@ -1030,7 +1031,7 @@ body {
 .modal-form__label {
   display: block;
   font-size: 12px;
-  line-height: calc(14 / 12);
+  line-height: 1.17;
   letter-spacing: 0.01em;
   margin-bottom: 4px;
   cursor: pointer;
@@ -1105,7 +1106,7 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 14px;
-  line-height: calc(24 / 14);
+  line-height: 1.71;
   letter-spacing: 0.03em;
   cursor: pointer;
   color: #757575;
@@ -1164,7 +1165,7 @@ body {
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
-  line-height: calc(30 / 16);
+  line-height: 1.87;
   letter-spacing: 0.06em;
   color: var(--hero-btn-texr-color);
   background-color: var(--accent-color);

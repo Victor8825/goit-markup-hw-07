@@ -6,10 +6,7 @@
 
   cursor: pointer;
   font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: calc(30 / 16);
-  letter-spacing: 0.06em;
+  @include font(700, 16px, 1.87, 0.06em);
 
   background-color: var(--hero-btn-background-color);
   color: var(--hero-btn-texr-color);
