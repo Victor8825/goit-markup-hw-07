@@ -8,9 +8,9 @@
   letter-spacing: 0.03em;
 
   background-color: var(--footer-background-color);
-}
 
-.footer-wrap {
-  display: flex;
-  align-items: baseline;
+  &-wrap {
+    display: flex;
+    align-items: baseline;
+  }
 }

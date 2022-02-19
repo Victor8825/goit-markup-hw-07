@@ -30,12 +30,12 @@
   align-items: center;
   justify-content: center;
   color: #afb1b8;
-}
 
-.customers__link:hover,
-.customers__link:focus {
-  color: var(--accent-color);
-  border-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+  }
 }
 
 .customers__icon {

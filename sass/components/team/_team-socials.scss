@@ -5,9 +5,10 @@
 .team-socials__item {
   width: 44px;
   height: 44px;
-}
-.team-socials__item + .team-socials__item {
-  margin-left: 10px;
+
+  & + & {
+    margin-left: 10px;
+  }
 }
 
 .team-socials__link {
@@ -22,13 +23,14 @@
   align-items: center;
   justify-content: center;
   color: #afb1b8;
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    color: var(--additional-font-color);
+  }
 }
 
-.team-socials__link:hover,
-.team-socials__link:focus {
-  background-color: var(--accent-color);
-  color: var(--additional-font-color);
-}
 .team-socials__icon {
   fill: currentColor;
 }
