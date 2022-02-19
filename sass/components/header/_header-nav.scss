@@ -1,0 +1,39 @@
+.accent {
+  color: var(--accent-color);
+}
+
+.link {
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  text-decoration-line: none;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-list__link {
+  text-decoration: none;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--title-text-color);
+}
+
+.nav-list__item + .nav-list__item {
+  margin-left: 50px;
+}
