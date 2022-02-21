@@ -1,8 +1,8 @@
-.about {
+.section--padding-bottom {
   padding-bottom: var(--section-padding-bottom);
 }
 
-.about__list {
+.about {
   @extend %list;
   display: flex;
 }
@@ -32,12 +32,4 @@
   text-transform: uppercase;
 
   color: #ffffff;
-}
-
-.about__title {
-  margin-bottom: 50px;
-  @include font(700, 36px, 1.17, 0.03em);
-  text-align: center;
-
-  color: var(--title-text-color);
 }

@@ -17,11 +17,11 @@
   fill: currentColor;
 }
 
-.header-contacts__mail {
+.header-contacts > .header-contacts__item {
   margin-right: 50px;
 }
 
-.current {
+.nav-list__link--current {
   position: relative;
   color: var(--accent-color);
 

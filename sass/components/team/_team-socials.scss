@@ -1,37 +1,8 @@
-.team-socials {
-  @extend %list;
-  display: flex;
-  justify-content: center;
-}
-.team-socials__item {
-  width: 44px;
-  height: 44px;
-
-  & + & {
-    margin-left: 10px;
-  }
-}
-
-.team-socials__link {
-  transition-property: background-color, color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.socials__link--team {
   color: #afb1b8;
 
   &:hover,
   &:focus {
-    background-color: var(--accent-color);
     color: var(--additional-font-color);
   }
-}
-
-.team-socials__icon {
-  fill: currentColor;
 }
